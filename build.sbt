@@ -4,6 +4,14 @@ import microsites.CdnDirectives
 import sbtghactions.JavaSpec
 import Utils._
 
+/* update des Fork https://github.com/HansG/mongo4cats  vom Original https://github.com/Kirill5k/mongo4cats
+vgl. https://stackoverflow.com/questions/14107071/update-github-fork-from-the-original-repo
+git remote add --track master Kirill5k https://github.com/Kirill5k/mongo4cats
+git fetch Kirill5k
+git merge Kirill5k/master
+ */
+
+
 val scala212               = "2.12.17"
 val scala213               = "2.13.10"
 val scala3                 = "3.2.1"
